@@ -15,7 +15,7 @@ defined( 'ABSPATH' ) or die( 'Unauthorized Access' );
 
 function techiepress_get_send_data() {
 
-    $url = 'https://jsonplaceholder.typicode.com/users';
+    $url = 'https://api.openbrewerydb.org/breweries';
     
     $arguments = array(
         'method' => 'GET'
